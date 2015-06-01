@@ -1,0 +1,147 @@
+.room {
+  background-color: #E5E7E7;
+  color: #485163;
+}
+
+.room-placard {
+  text-align: center;
+  background-image: url("//cdn.gotomeet.at/images/bg-orange.jpg");
+  background-size: cover;
+  height: 344px;
+  padding-top: 70px;
+  color: #fff;
+}
+
+.room-placard .room-name {
+  margin: 0;
+}
+
+
+.room-avatar {
+  height: 45px;
+  width: 45px;
+  box-shadow: 0 3px 7px rgba(0,0,0,.5);
+  background-color: lightgrey;
+  background-size: cover;
+  border: 2px solid rgba(255,255,255,1);
+  transition: width .35s,height .35s,border .75s,box-shadow .75s;
+  border-radius: 100%;
+}
+
+.room-button {
+  margin-top: 15px;
+}
+
+.room-description {
+  text-align: center;
+  font-size: 16px;
+  padding-left: 70px;
+  padding-right: 70px;
+  color: #C8CED3;
+}
+
+.room .navbar-default {
+  background-color: rgba(57,64,77, .5);
+  border: 0;
+  border-color: rgba(57,64,77, .5);
+  height: 60px;
+  padding-top: 5px;
+}
+
+.room .navbar-default.no-auth {
+  background-color: transparent;
+}
+
+.room .navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-text {
+  color: #fff;
+}
+
+.room-organizer {
+  font-size: 16px;
+}
+
+.room-placard .meeting-details .col-start {
+  text-align: center;
+}
+
+.room-placard .meeting-details .col-numbers {
+  text-align: center;
+}
+
+.meeting-details .col-numbers p {
+  margin: 0;
+}
+
+.room-sub-section {
+  padding-top: 40px;
+}
+
+.room-sub-section h1, h2, h3, h4, h5, h6 {
+  color: #485163;
+}
+
+.room-sub-section .meeting-details .lead {
+  font-size: 18px;
+}
+
+.room-sub-section .meeting-details {
+  margin-top: 50px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+.room-body-header hr{
+  margin-top: 0px;
+}
+
+.room-body-header h4{
+  font-weight: 300;
+}
+
+.file-upload-text {
+  margin: 10px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.file-upload-text .plus{
+  color: #00B2EE;
+  font-size: 25px;
+}
+
+.file-upload-text div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.file-upload-text .link {
+  color: #00B2EE;
+}
+
+.powered {
+  margin-top: 5px;
+  padding-left: 15px;
+  font-size: 10px;
+}
+
+.brand {
+  background-color: #FD7A2B;
+  border-color: #FD7A2B;
+}
+
+.brand:hover,
+.brand:active,
+.brand:focus {
+  background-color: #E65614;
+  border-color: #E65614;
+}
+
+.btn.brand {
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.25);
+}
+
